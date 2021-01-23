@@ -8,7 +8,7 @@ namespace ConsoleApp2
     {
         TKey[] Keys { get; set; }
         TValue[] Values { get; set; }
-        TValue this[TKey key] { get; }
+        TValue this[TKey key] { get; set;}
         void Add(TKey key, TValue value);
         void Remove(TKey key);
         void Clear();
